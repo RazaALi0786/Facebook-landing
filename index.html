@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Facebook – log in or sign up</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
 </head>
-<body>
-    <section class="container">
-        <div class="left">
-            <img src="fb.svg" alt="">
-            <p>Facebook helps you connect and share with the people in your life.</p>
+<body class="bg-gray-200">
+    <section class="container mt-36 flex mx-auto items-center justify-center">
+        <div class="left w-1/2 mx-14">
+            <img class="w-80" src="fb.svg" alt="">
+            <p class="text-3xl mx-8">Facebook helps you connect and share with the people in your life.</p>
         </div>
-        <div class="right">
-            <input type="text" placeholder="Email address or phone number">
-            <input type="password" placeholder="Password">
-            <button class="btn">Log In</button>
-            <span>Fogotten password?</span>
-            <hr>
-            <button class="btn">Create Account</button>
+        <div class="right flex flex-col bg-white p-8 rounded-xl w-2/5 text-lg relative">
+            <input class="px-4 h-12 my-2     border border-1 border-gray-200 outline-blue-400 rounded-lg" type="text"
+                placeholder="Email address or phone number">
+            <input class="px-4 h-12 my-2     border border-1 border-gray-200 outline-blue-400 rounded-lg"
+                type="password" placeholder="Password">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white my-2     py-3 rounded-md font-bold text-xl">Log
+                In</button>
+            <span class="text-blue-600 text-center text-sm my-2  hover:cursor-pointer hover:underline">Fogotten
+                password?</span>
+            <hr class="my-2 ">
+            <button
+                class="bg-green-600 hover:bg-green-700 text-white my-2   py-3 px-4 mx-auto rounded-md font-bold text-xl w-fit">Create
+                New
+                Account</button>
+            <span class="absolute -bottom-12 text-sm"><span class="font-bold hover:underline cursor-pointer">Create a
+                    Page</span> for a celebrity,brand or business.</span>
         </div>
     </section>c
 </body>
